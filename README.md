@@ -1,2 +1,2 @@
-# pagina-Animeflix
-Página Animeflix, besarda na página da  Netflix, onde só é possivel assistir filmes e series animadas
+# Pagina-Animeflix
+Página Animeflix, beseada na página da Netflix, onde só é possivel assistir filmes e series de animes.  

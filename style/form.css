@@ -1,0 +1,57 @@
+:root {
+    --preta: #1C1C1C;
+    --verde: #7CFC00;
+}
+
+body {
+    background: var(--preta);
+    font-family: serif;
+    color: #ADD8E6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 10px;
+}
+
+.container .input-nome {
+    width: 250px;
+    height: 25px;
+    border-radius: 15px;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+.container .input-email {
+    width: 250px;
+    height: 25px;
+    border-radius: 15px;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+.container .input-tel {
+    width: 250px;
+    height: 25px;
+    border-radius: 15px;
+    font-style: italic;
+    margin-left: 7px;
+}
+
+.container .btn-enviar {
+    border-radius: 7px;
+    font-size: 15px;
+    width: 60px;
+    height: 25px;
+    background-color: #7CFC00;
+    margin-left: 40px;
+}

@@ -36,6 +36,28 @@ header nav a:hover {
     color: #7CFC00;
 }
 
+
+/*  Elemento bucar*/
+
+#divBusca {
+    background-color: #ADD8E6;
+    border: solid 1px;
+    border-radius: 15px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    font-style: italic;
+    font-size: 16px;
+    height: 35px;
+    width: 300px;
+    border: none;
+    border-radius: 15px;
+}
+
 body {
     background: var(--preta);
     font-family: serif;
@@ -47,7 +69,7 @@ body {
 
 .capa {
     background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url(../img/Jornada-nas-estrelas.jpg);
-    height: 900px;
+    height: 700px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -56,16 +78,13 @@ body {
 }
 
 .capa .descricao {
-    font-family: fantasy;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
 .container {
     margin-left: 10px;
     margin-right: 10px;
-}
-
-.capa .container {
-    width: 700;
 }
 
 .container .botao-asistir {
@@ -132,8 +151,9 @@ footer h2 {
     padding-bottom: 10px;
 }
 
-.redes-sociais .fa-brands {
-    font-size: 30px;
+.resdes-sociais .fa-brands {
+    font-size: 35px;
+    padding: 3px;
     cursor: pointer;
     color: #3a720c;
 }
@@ -141,15 +161,31 @@ footer h2 {
 .redes-sociais h2 {
     text-align: center;
     color: #7CFC00;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin-bottom: 10px;
 }
 
 footer h2 {
     color: #7CFC00;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.redes-sociais {
-    display: flex;
-    justify-content: center;
+.resdes-sociais .btn-facebook {
+    margin-left: 10px;
+}
+
+.resdes-sociais .btn-github {
+    margin-left: 10px;
+}
+
+.resdes-sociais .btn-instagran {
+    margin-left: 590px;
+}
+
+.contato h2 {
+    margin-top: 10px;
+    justify-content: space-between;
 }

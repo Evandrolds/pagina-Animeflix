@@ -12,14 +12,14 @@
 
 /* Elelmentos base */
 
-.container .fundo {
+header .container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-header .fundo {
+header .logo {
     padding: 10px;
     color: #7CFC00;
     font-family: 'Times New Roman', Times, serif;
@@ -30,10 +30,15 @@ header nav a {
     text-decoration: none;
     color: #ADD8E6;
     padding: 7px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 header nav a:hover {
     color: #7CFC00;
+}
+
+header .inicio {
+    margin-right: 20px;
 }
 
 body {
@@ -42,28 +47,19 @@ body {
     color: #ADD8E6;
 }
 
-
-/* capa principal*/
-
-.container {
-    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url(../img/Jornada-nas-estrelas.jpg);
-    height: 900px;
+.capa {
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url(../img-series/serie-castlevania.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
+    height: 700px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
 }
 
-.capa .descricao {
-    font-family: fantasy;
-}
-
-.container {
+.capa .info {
+    display: flexbox;
+    width: fit-content;
+    width: 700px;
     margin-left: 10px;
-    margin-right: 10px;
-}
-
-.capa .container {
-    width: 700;
 }

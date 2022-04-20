@@ -42,81 +42,13 @@ body {
     color: #ADD8E6;
 }
 
-.destaque {
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
-    margin-left: 10px;
-    padding-bottom: 10px;
-}
-
-
-/* capa principal*/
-
-.capa {
-    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url(../img/Jornada-nas-estrelas.jpg);
-    height: 900px;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.capa-series .descricao {
-    font-family: fantasy;
-}
-
 .container {
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.capa-series .container {
-    width: 700;
-}
-
-.capa-series .botao-asistir {
-    cursor: pointer;
-    background-color: #1C1C1C;
-    margin-top: 20px;
-    background-color: rgba(0, 0, 0, .50), rgba(0, 0, 0, .50);
-    border: none;
-    color: #7CFC00;
-    padding: 7px;
-    font-size: 12px;
-    border-radius: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.capa-series .botao-inf {
-    cursor: pointer;
-    background-color: #1C1C1C;
-    background-color: rgba(0, 0, 0, .50), rgba(0, 0, 0, .50);
-    border: none;
-    color: #7CFC00;
-    padding: 7px;
-    font-size: 12px;
-    border-radius: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.botao-asistir:hover {
-    background-color: #7CFC00;
-    color: #1C1C1C;
-    transition: 3s ease all;
-}
-
-.botao-inf:hover {
-    background-color: #7CFC00;
-    color: #1C1C1C;
-    transition: 3s ease all;
-}
-
-.fa-solid {
-    padding: 5px;
-}
-
-.filme-box {
+.series-carousel .series {
+    margin: 7px;
     height: 300px;
     width: 150px;
     display: block;
@@ -124,4 +56,29 @@ body {
     border-color: #ADD8E6;
     border-style: outset;
     justify-content: space-between;
+    justify-content: center;
+}
+
+.principal img {
+    display: flex;
+    flex-direction: row;
+    width: 1500px;
+    height: 150px;
+    align-items: center;
+}
+
+.fundo {
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url(../img-series/serie-Demon\ Slayer.jpg);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+footer h3 {
+    padding: 10px;
+    text-align: center;
+    color: #7CFC00;
 }
